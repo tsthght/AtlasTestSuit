@@ -6,10 +6,23 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		6F37CEBD1D66013D00FBC4D8 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		6F37CEBE1D6601A800FBC4D8 /* executer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = executer.cpp; sourceTree = "<group>"; };
+		6F37CEBF1D6601A800FBC4D8 /* executer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = executer.h; sourceTree = "<group>"; };
+		6FD2B1701D6895AB000C50D0 /* Markup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Markup.cpp; sourceTree = "<group>"; };
+		6FD2B1711D6895AB000C50D0 /* Markup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Markup.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		6F37CEB21D6600D100FBC4D8 = {
 			isa = PBXGroup;
 			children = (
+				6FD2B1701D6895AB000C50D0 /* Markup.cpp */,
+				6FD2B1711D6895AB000C50D0 /* Markup.h */,
+				6F37CEBE1D6601A800FBC4D8 /* executer.cpp */,
+				6F37CEBF1D6601A800FBC4D8 /* executer.h */,
+				6F37CEBD1D66013D00FBC4D8 /* Makefile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -23,6 +36,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/atlas/MyRepo/workstation/AtlasTestSuite;
 			dependencies = (
 			);
 			name = AtlasTestSuite;
@@ -177,6 +191,7 @@
 				6F37CEBC1D6600D100FBC4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
