@@ -6,9 +6,9 @@
 //  Copyright © 2016年 GHT. All rights reserved.
 //
 
-#ifndef executer_hpp
-#define executer_hpp
+#ifndef executer_h
+#define executer_h
 
 #include <stdio.h>
 
-#endif /* executer_hpp */
+#endif /* executer_h */
